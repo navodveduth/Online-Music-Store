@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+.body {
+	display: flex;
+}
+
+.left_side {
+    height: 100vh;
+    flex: 0.2;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 230px;
+    height: 100vh;
+	border: 1px solid black;
+    background-color: #141414;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px black; 
+    background: black;
+}
+
+.right_side {
+	padding: 30px;
+    flex: 0.9;
+    height: 100vh;
+    color: white;
+    overflow-y: overlay;
+    background: #212121eb;
+}

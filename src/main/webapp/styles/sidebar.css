@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+.logo {
+	margin-right: auto;
+	height: 100px;
+	padding: 15px;
+	border-radius:30px;
+}
+
+.sidebar {
+	display: flex;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+	height: 40px;
+}
+
+.sidebar:hover {
+	background: #383838;
+}
+
+.sidebar_icon {
+	padding-left: 18px;
+	padding-right: 8px;
+}
+
+.sidebar > p {
+	margin-top: 15px;
+	margin-left: 12px;
+	font-size: 18px;
+	font-family: "Roboto", "Arial", sans-serif;
+	transition: 200ms color ease-in;
+	font-weight: 500;
+}
+
+hr.side {
+	border: 1px solid white;
+}

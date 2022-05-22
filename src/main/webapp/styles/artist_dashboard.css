@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap')
+	;
+
+.bgc-dark {
+	background-color: #1f2335 !important;
+}
+
+.navbar {
+	border-radius: 10px;
+	justify-content: center;
+}
+
+.font {
+	font-size: 20px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.collapse ul.navbar-nav>li>a {
+	color: #fff !important;
+	font-weight: 600;
+}

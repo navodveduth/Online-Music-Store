@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+.album_img {
+	display: block;
+	margin: auto;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.album_container {
+	margin-top: 1rem;
+	padding-top: 10px;
+	padding-left: 18px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column {
+	flex: 0.25 0 1%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.box {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	align-content: center;
+	background-color: #1f2222;
+}
+
+.box-text {
+	margin: auto;
+}
+
+.box:hover {
+	box-shadow: 0 8px 16px 0 #525252;
+}
+
+.margin_bt {
+	margin-bottom: 3rem;
+}
+
+.box_md {
+	font-family: "Glory", sans-serif;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 10px;
+	pointer-events: none;
+	font-weight: 600;
+}
+
+.album_name {
+	/* album name */
+	color: white;
+	font-weight: 400;
+	text-decoration: none !important;
+	padding-top: 5px;
+}
