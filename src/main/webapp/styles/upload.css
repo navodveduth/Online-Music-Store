@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* header-logged.jsp */
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.avatar_img {
+	display: flex;
+	align-items: center;
+}
+
+.avatar {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+}
+
+.user_name {
+	margin-left: 10px;
+	text-transform: capitalize;
+}
+
+/* upload.jsp */
+#image {
+	display: none;
+}
+
+.image_upload {
+	cursor: pointer;
+	text-align: center;
+	font-size: 20px;
+}
+
+.upload_form {
+	display: flex;
+	border-radius: 3px;
+	padding: 1.8em;
+}
+
+.album_art {
+	margin-right: 2em;
+	display: flex;
+	flex-direction: column;
+}
+
+.form_input {
+	padding-top: 50px;
+	display: inline-block;
+	border-radius: 15px;
+}
+
+.song-file-upload {
+	cursor: pointer;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	display: inline-block;
+	padding: 6px 12px;
+	display: inline-block;
+}
+
+label {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+}
+
+.form-control {
+	color: black !important;
+}
+
+.form-group .btn-primary {
+	background: #FEB139;
+	border-color: #FEB139;
+	color: black;
+	font-weight: 500;
+}
