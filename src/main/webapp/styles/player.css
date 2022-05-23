@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+.player {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    height: 95px;
+    width: 100%;
+    background-color: #282828;
+    padding: 20px;
+}
+
+.player_left {
+    flex: 0.4;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 300px;;
+}
+
+.player_albumLogo {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.player_btn_color {
+    color: #ffd743;
+}
+
+.player_songInfo > h4 {
+    margin-bottom: 5px;
+}
+
+.player_songInfo > p {
+    font-size: 12px;
+}
+
+.player_center {
+    flex: 0.8;
+    padding: 0 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.player_icon:hover,
+.player_btn_color:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+.volume_bar {
+    flex: 0.3;
+    color: white;
+    padding-top: 8px;
+}
+
+.duration_container {
+  width: 75%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffc07e;
+}
+
+/* Modify the appearance of the slider */
+.duration_br, .volume_br {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: #9138F0;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/* Modify the appearance of the slider thumb */
+.duration_br::-webkit-slider-thumb, .volume_br::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #1ef9db;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.duration_br:hover, .volume_br:hover {
+  opacity: 1.0;
+}
+
+.duration_br {
+  width: 60%;
+}
+
+.volume_br {
+  width: 60%;
+}
+
+.current-time, .total-duration {
+  padding: 10px;
+}
+
+i.fa-volume-down, i.fa-volume-up {
+  padding: 10px;
+  color: #ffc07e;
+}
